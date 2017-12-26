@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+//#import AFNetworking
 
 @interface AppDelegate ()
 
@@ -16,7 +17,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    //设置网络指示器
+//    [AFNetworkActivityIndicatorManager sharedManager].enabled = YES;
+    
     return YES;
 }
 

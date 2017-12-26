@@ -24,6 +24,12 @@
     
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    
+    //显示导航栏 !!animated
+    [self.navigationController setNavigationBarHidden:NO animated:animated];
+    
+}
 
 
 @end
